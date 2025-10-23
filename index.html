@@ -95,7 +95,32 @@
    <!-- <link rel="stylesheet" href="assets/main.css"> -->
 <link rel="stylesheet" href="https://ghl-assets-bahig.s3.amazonaws.com/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-L2bU6i1G57S+9uM5ZV2JwSK7URMruoycMuGgwEZ6cT7x7+bJZmhmhT+eHnJ7QWZ2ULbRzZ4evKReYZF5UgG1xQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  body::-webkit-scrollbar {
+    width: 10px; /* For vertical scrollbar */
+    height: 10px; /* For horizontal scrollbar (less common) */
+}
 
+/* The scrollbar track (the background) */
+body::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Very light gray */
+    border-radius: 5px; /* Subtle roundness on the track */
+}
+
+/* The scrollbar thumb (the draggable part) */
+body::-webkit-scrollbar-thumb {
+    background-color: #6a5acd; /* A deep, fancy lavender/blue */
+    border-radius: 5px; /* Match the track roundness */
+    
+    /* Optional: Add a subtle shadow for a 3D effect */
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2); 
+}
+
+/* Optional: Thumb color on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #483d8b; /* Slightly darker on hover */
+}
+</style>
   </head>
   <body class="bg-white dark:bg-black">
     <header>
@@ -982,5 +1007,6 @@
 </footer>
 
   </body>
+
 
 </html>
